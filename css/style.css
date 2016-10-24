@@ -1,0 +1,20 @@
+@font-face {
+	font-family: 'coco-social';
+	src:url('fonts/coco-social.eot?-euns9w');
+	src:url('fonts/coco-social.eot?#iefix-euns9w') format('embedded-opentype'),
+		url('fonts/coco-social.woff?-euns9w') format('woff'),
+		url('fonts/coco-social.ttf?-euns9w') format('truetype'),
+		url('fonts/coco-social.svg?-euns9w#coco-social') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	width: 1265px;
+	height: 3308px;
+	margin: 0;
+	padding: 0;
+	font-family: 'coco-social'!important;
+	background-color: #222222 !important;
+}
+
