@@ -9,12 +9,104 @@
 	font-style: normal;
 }
 
+* {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
 body {
 	width: 1265px;
 	height: 3308px;
-	margin: 0;
-	padding: 0;
-	font-family: 'coco-social'!important;
+	/*font-family: 'coco-social'!important;*/
 	background-color: #222222 !important;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center center;
 }
 
+a {
+	cursor: pointer;
+	text-decoration: none !important;
+}
+
+/* /////////////////// 
+///   HEADER ////////
+//////////////////*/
+
+.siteHeader {
+	width: 1265px;
+	height: 90px;
+	background-color: #FFFFFF;
+
+}
+
+.siteTitle {
+	width: 300px !important;
+	height: 40px;
+}
+
+	.siteTitle h2 a {		
+		font-size: 36px !important;
+		color: #222222;		
+	}
+
+.description {
+	width: 300px !important;
+	height: 22px;
+}
+
+		.description h3 {			
+			font-size: 24px;
+			color: #B6B6B6;
+		}
+
+/* /////////////////// 
+///   HEADER NAV ////
+//////////////////*/
+
+.navbar {
+	height: 50px !important;
+	position:absolute;
+	display: inline-block;
+}
+
+	.navbar li {
+		text-align: center;
+		list-style: none;
+		margin-left: 30px !important;
+		letter-spacing: 2px;
+		float: left;
+	}	
+
+		.navbar li a {
+			color: #FFFFFF;
+		}	
+
+			.navbar li.active {
+				background-color: #F4C700;
+		}
+
+
+			.navbar li:hover {
+				border-width: 2px;
+			    border: 1px dotted #F4C700;
+			}
+
+/* /////////////////// 
+///  ARTICLE PATH ///
+//////////////////*/
+
+.articlePath {
+	height: 80px;
+	background-color: #111111;
+	color:  #FFFFFF;
+	text-align: right;
+}		
+
+.links {
+	margin-right: 25px !important;
+}	
+
+	.links a {
+		color:  #FFFFFF;
+	}	
