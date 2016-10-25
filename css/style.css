@@ -17,9 +17,6 @@
 body {
 	/*font-family: 'coco-social'!important;*/
 	background-color: #222222 !important;
-	background-repeat: no-repeat;
-	background-attachment: scroll;
-	background-position: center center;
 }
 
 a {
@@ -35,7 +32,6 @@ a {
 /* /////////////////// 
 ///   HEADER ////////
 //////////////////*/
-
 .siteHeader {
 	width: 1265px;
 	height: 92px;
@@ -73,7 +69,6 @@ a {
 /* /////////////////// 
 ///   HEADER NAV ////
 //////////////////*/
-
 .navbar {
 	height: 52px !important;
 	position:absolute;
@@ -107,8 +102,8 @@ a {
 /* /////////////////// 
 ///  ARTICLE PATH ///
 //////////////////*/
-
 .articlePath {
+	width: 949px;
 	height: 80px;
 	background-color: #111111;
 	color:  #FFFFFF;
@@ -118,9 +113,25 @@ a {
 }		
 
 .links {
-	margin-right: 25px !important;
+	padding: 30px !important;
+
 }	
 	.links a {
-		color:  #FFFFFF;
+		color: #FFFFFF;
 	}	
+	.links a:hover {
+		color: #F4C700;							
+	}
+	.diples {
+		color: #B6B6B6;
+	}
+	#currentPage {
+		color: #B6B6B6;
+	}
 
+/* /////////////////// 
+///////  ASIDE //////
+//////////////////*/
+.sidebar {
+	background-color: #111111;
+}	
