@@ -27,6 +27,11 @@ a {
 	text-decoration: none !important;
 }
 
+	ul li a:hover {
+		color: #F4C700;							
+	}/*border-width: 2px;
+	border: 1px dotted #F4C700;*/
+
 /* /////////////////// 
 ///   HEADER ////////
 //////////////////*/
@@ -69,8 +74,11 @@ a {
 }
 
 	.navbar li {
+		width: auto;
+		height: 48px;
 		text-align: center;
 		list-style: none;
+		padding-top: 5px !important;
 		margin-left: 30px !important;
 		letter-spacing: 2px;
 		float: left;
@@ -81,14 +89,8 @@ a {
 		}	
 
 			.navbar li.active {
-				background-color: #F4C700;
+				color: #F4C700;
 		}
-
-
-			.navbar li:hover {
-				border-width: 2px;
-			    border: 1px dotted #F4C700;
-			}
 
 /* /////////////////// 
 ///  ARTICLE PATH ///
