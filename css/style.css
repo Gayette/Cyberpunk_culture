@@ -38,18 +38,25 @@ a {
 
 .siteHeader {
 	width: 1265px;
-	height: 90px;
+	height: 92px;
 	background-color: #FFFFFF;
 
+}
+
+.titleBloc {
+	margin-top: 20px !important;
+	margin-bottom: 10px !important;
+	margin-left: 20px !important;
 }
 
 .siteTitle {
 	width: 300px !important;
 	height: 40px;
+	font-weight: 500;
 }
 
-	.siteTitle h2 a {		
-		font-size: 36px !important;
+	.siteTitle h2 a {
+		font-size: 36px;
 		color: #222222;		
 	}
 
@@ -59,7 +66,7 @@ a {
 }
 
 		.description h3 {			
-			font-size: 24px;
+			font-size: 20px;
 			color: #B6B6B6;
 		}
 
@@ -68,29 +75,34 @@ a {
 //////////////////*/
 
 .navbar {
-	height: 50px !important;
+	height: 52px !important;
 	position:absolute;
 	display: inline-block;
+	border: none;
 }
-
 	.navbar li {
 		width: auto;
 		height: 48px;
 		text-align: center;
 		list-style: none;
-		padding-top: 5px !important;
+
+		margin-top: 15px !important;
+		margin-bottom: 15px !important;
 		margin-left: 30px !important;
 		letter-spacing: 2px;
 		float: left;
 	}	
-
-		.navbar li a {
-			color: #FFFFFF;
-		}	
-
-			.navbar li.active {
-				color: #F4C700;
-		}
+	.navbar li a {
+		color: #FFFFFF;
+		font-weight: bold;
+		letter-spacing: 2px;
+	}	
+	.navbar li.active {
+		color: #F4C700;
+	}
+	#Cbn {
+		letter-spacing: 0 !important;
+	}	
 
 /* /////////////////// 
 ///  ARTICLE PATH ///
@@ -100,13 +112,14 @@ a {
 	height: 80px;
 	background-color: #111111;
 	color:  #FFFFFF;
+	font-weight: bold;
+	letter-spacing: 2px;
 	text-align: right;
 }		
 
 .links {
 	margin-right: 25px !important;
 }	
-
 	.links a {
 		color:  #FFFFFF;
 	}	
