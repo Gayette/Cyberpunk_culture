@@ -12,6 +12,7 @@
 * {
 	margin: 0 !important;
 	padding: 0 !important;
+	font-weight: normal !important;
 }
 
 body {
@@ -238,20 +239,25 @@ a {
 ///////  ASIDE //////
 //////////////////*/
 .sidebar {
-	background-color: #111111;
+	background-color: #111111;	
+	justify-content: center;
 	color: #FFFFFF;
-	padding-left: 15px;
-	display: inline-block;
-	float: right;
 }
 	.sidebar h3 {
 		font-size: 16px;
 		color: #FFF;
 		letter-spacing: 2px;
+		margin-left: 5px;
 	}
 	.sidebar li a {
+		font-size: 14px;
 		color: #BBB;
 	}
+
+.navcontainer {
+	width: 241px !important;
+	margin-left: 40px !important;
+}		
 
 	.search {
 		width: 241px;
@@ -260,4 +266,10 @@ a {
 	.search-field {
 		width: 100% !important;
 		height: 36px !important;
-	}	
+	}
+
+.search,.category, .articles, .comments, .archives { width: 226px; margin-top: 20px !important; }
+
+	.navlist {
+		padding-top: 10px !important;
+	}
